@@ -43,8 +43,8 @@ Backend система для бронирования билетов в кин�
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/jaydeadlondon/movies_reservation_api.git
-cd movies_reservation_api
+git clone https://github.com/jaydeadlondon/movie_reservation_api.git
+cd movie_reservation_api
 ```
 
 ### 2. Создать виртуальное окружение
