@@ -8,7 +8,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI(
     title="Movie Reservation API",
     description="Backend for movie ticket reservation system",
-    version="1.0.0"
+    version="1.0.0",
 )
 
 app.add_middleware(
@@ -25,9 +25,11 @@ app.include_router(showtimes.router)
 app.include_router(reservations.router)
 app.include_router(admin.router)
 
+
 @app.get("/")
 def root():
     return {"message": "Movie Reservation API"}
+
 
 @app.get("/health")
 def health_check():
