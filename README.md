@@ -111,7 +111,6 @@ uvicorn app.main:app --reload
 - [ ] Интеграция с платёжными системами
 - [ ] Rate limiting (защита от spam)
 - [ ] Логирование (logs)
-- [✅ ] Unit тесты
 - [ ] Docker контейнеризация
 - [ ] CI/CD (GitHub Actions)
 
