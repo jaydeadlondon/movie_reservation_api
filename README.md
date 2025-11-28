@@ -102,14 +102,13 @@ uvicorn app.main:app --reload
 - **Документация (Swagger):** http://localhost:8000/docs
 - **Альтернативная документация (ReDoc):** http://localhost:8000/redoc
 
-## 📄 Лицензия
-
-MIT License
-
 ## 👤 Автор
 
 **jaydeadlondon**
 
 - GitHub: [@jaydeadlondon](https://github.com/jaydeadlondon)
 
+## 📝 Лицензия
+
+MIT License
 ---
